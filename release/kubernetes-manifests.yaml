@@ -33,7 +33,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/imphanichavakula/currencyservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/imphanichavakula/currencyservice:8d20e1059329c9bcddd3210bc6c12c56518e3216
         ports:
         - name: grpc
           containerPort: 7000
@@ -144,7 +144,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/imphanichavakula/loadgenerator:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/imphanichavakula/loadgenerator:8d20e1059329c9bcddd3210bc6c12c56518e3216
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -198,7 +198,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/imphanichavakula/productcatalogservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/imphanichavakula/productcatalogservice:8d20e1059329c9bcddd3210bc6c12c56518e3216
         ports:
         - containerPort: 3550
         env:
@@ -272,7 +272,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/imphanichavakula/checkoutservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+          image: ghcr.io/imphanichavakula/checkoutservice:8d20e1059329c9bcddd3210bc6c12c56518e3216
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -356,7 +356,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/imphanichavakula/shippingservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/imphanichavakula/shippingservice:8d20e1059329c9bcddd3210bc6c12c56518e3216
         ports:
         - containerPort: 50051
         env:
@@ -432,7 +432,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/imphanichavakula/cartservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/imphanichavakula/cartservice:8d20e1059329c9bcddd3210bc6c12c56518e3216
         ports:
         - containerPort: 7070
         env:
@@ -578,7 +578,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/imphanichavakula/emailservice:2982d3409659791694ed55a1f12f881ec4d7552a
+        image: ghcr.io/imphanichavakula/emailservice:8d20e1059329c9bcddd3210bc6c12c56518e3216
         ports:
         - containerPort: 8080
         env:
@@ -661,7 +661,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/imphanichavakula/paymentservice:e8fdd88e064f1de344b76ec0fcf29ffc8bd7819f
+        image: ghcr.io/imphanichavakula/paymentservice:8d20e1059329c9bcddd3210bc6c12c56518e3216
         ports:
         - containerPort: 50051
         env:
@@ -737,7 +737,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ghcr.io/imphanichavakula/frontend:6ddc9ef0f082c8f1cc7e668f6f2a03918fa7da0a
+          image: ghcr.io/imphanichavakula/frontend:8d20e1059329c9bcddd3210bc6c12c56518e3216
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -866,7 +866,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/imphanichavakula/recommendationservice:887ad4c5dc9369ad48d142c6a02698aca26db355
+        image: ghcr.io/imphanichavakula/recommendationservice:8d20e1059329c9bcddd3210bc6c12c56518e3216
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -945,7 +945,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ghcr.io/imphanichavakula/adservice:b1f9443439dd196893b88a1bf7cf482ecfc6dc46
+        image: ghcr.io/imphanichavakula/adservice:8d20e1059329c9bcddd3210bc6c12c56518e3216
         ports:
         - containerPort: 9555
         env:
